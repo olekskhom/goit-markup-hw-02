@@ -1,7 +1,9 @@
 /* основні */
 :root {
   --maine-color: #2e2f42;
+  /* maine is second color */
   --second-color: #434455;
+  /* second is main color */
   --accent-color: #4d5ae5;
   --subaccent-color: #404bbf;
   --white-color: #ffffff;
@@ -18,17 +20,17 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--maine-color);
+  color: var(--second-color);
+  background-color: var(--white-color);
 }
 
 .logo {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   color: var(--accent-color);
-
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
@@ -62,9 +64,10 @@ body {
   color: var(--subaccent-color);
 }
 
-/* .contact {
+.contact {
+  font-style: normal;
 }
-.contact-list {
+/* .contact-list {
 }
 .contact-item {
 } */
@@ -90,7 +93,7 @@ body {
 .page-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1/07;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
@@ -135,6 +138,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--maine-color);
 }
 /* .subtitle {
 } */
@@ -142,7 +146,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--second-color);
+  /* color: var(--second-color); */
 }
 
 /* ===== /advantages ===== */
@@ -158,7 +162,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  /* color: var(--maine-color); */
+  color: var(--maine-color);
 }
 /* .doing-list {
 }
@@ -171,9 +175,10 @@ body {
 
 /* ===== /doing ===== */
 /* ===== team ===== */
-/* .team {
+.team {
+  background-color: var(--subwhite-color);
 }
-.section-title {
+/* .section-title {
 } */
 .team-title {
   font-weight: 700;
@@ -182,22 +187,23 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  /* color: var(--maine-color); */
+  color: var(--maine-color);
 }
 /* .team-list {
 }
 .list {
-}
+} */
 .team-item {
+  background-color: var(--white-color);
 }
-.team-img {
+/* .team-img {
 } */
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  /* color: var(--maine-color); */
+  color: var(--maine-color);
 }
 /* .subtitle {
 } */
@@ -205,7 +211,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--second-color);
+  /* color: var(--second-color); */
 }
 /* ===== /team ===== */
 /* ===== footer ===== */
@@ -260,7 +266,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  /* color: var(--maine-color); */
+  color: var(--maine-color);
 }
 /* .subtitle {
 } */
@@ -268,5 +274,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--second-color);
+  /* color: var(--second-color); */
 }
